@@ -28,10 +28,9 @@ def get_filters():
     # while loop to handle invalid inputs
     while True:
 
-        user_city = input(
+        city = input(
         '\nWould you like to learn about Chicago, New York City or Washington?\n'
-        )
-        city = user_city.lower()
+        ).lower()
 
         if city not in cities:
             print('\nPlease choose from the following: Chicago, New York City,')
@@ -44,9 +43,9 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while True:
 
-        user_month = input(
-        '\nWhich month you are interested in? (For all months, type \'all\')\n')
-        month = user_month.lower()
+        month = input(
+        '\nWhich month you are interested in? (For all months, type \'all\')\n'
+        ).lower()
 
         if month not in months:
             print('Sorry! We currently only have data for January to June!')
@@ -57,9 +56,9 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
 
-        user_day = input(
-        '\nWhich day are you interested in? (For every day, type \'all\')\n')
-        day = user_day.lower()
+        day = input(
+        '\nWhich day are you interested in? (For every day, type \'all\')\n'
+        ).lower()
 
         if day not in days:
             print(
