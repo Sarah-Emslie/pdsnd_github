@@ -22,5 +22,4 @@ In the terminal, install the following third party libraries:
 There is then no need to import these. Just run:
 `python bikeshare_2.py`
 
-## Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Issues
