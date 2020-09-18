@@ -56,9 +56,9 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
 
-        user_day = input(
-        '\nWhich day are you interested in? (For every day, type \'all\')\n')
-        day = user_day.lower()
+        day = input(
+        '\nWhich day are you interested in? (For every day, type \'all\')\n'
+        ).lower()
 
         if day not in days:
             print(
