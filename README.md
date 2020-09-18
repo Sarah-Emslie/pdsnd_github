@@ -10,7 +10,7 @@ filter data by the following cities and calculate insightful statistics:
 - New York City
 - Washington
 
-## Getting Started
+### Getting Started
 
 Go to [Python](https://python.org/downloads) to download the latest version of Python for your operating system and
 follow the installation instructions.
@@ -22,7 +22,7 @@ In the terminal, install the following third party libraries:
 There is then no need to import these. Just run:
 `python bikeshare_2.py`
 
-## Issues
+### Issues
 
 `Datetime` attribute `.day_name()` may need to be replaced by `.weekday_name` if you're already running an older
 version of Python. Check the documentation [here](https://docs.python.org/3/library/datetime.html).
