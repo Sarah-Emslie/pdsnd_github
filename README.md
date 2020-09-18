@@ -3,8 +3,13 @@
 
 ### Bikeshare Project
 
-## Description
-Describe what your project is about and what it does
+Explore U.S. Bikeshare data with the help of Python. An interactive experience is created whereby users can choose to 
+filter data by the following cities and calculate insightful statistics:
+
+- Chicago
+- New York City
+- Washington
+
 
 ## Files used
 Include the files used
