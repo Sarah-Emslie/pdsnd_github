@@ -28,11 +28,10 @@ def get_filters():
     # while loop to handle invalid inputs
     while True:
 
-        user_city = input(
+        city = input(
         '\nWould you like to learn about Chicago, New York City or Washington?\n'
-        )
-        city = user_city.lower()
-
+        ).lower()
+        
         if city not in cities:
             print('\nPlease choose from the following: Chicago, New York City,')
             (' or Washington.\n')
