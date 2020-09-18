@@ -23,3 +23,6 @@ There is then no need to import these. Just run:
 `python bikeshare_2.py`
 
 ## Issues
+
+`Datetime` attribute `.day_name()` may need to be replaced by `.weekday_name` if you're already running an older
+version of Python. Check the documentation [here](https://docs.python.org/3/library/datetime.html).
